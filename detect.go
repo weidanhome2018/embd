@@ -129,7 +129,7 @@ func DetectHost() (host Host, rev int, err error) {
 		return HostBBB, rev, nil
 	case strings.Contains(hardware, "BCM2708") || strings.Contains(hardware, "BCM2709") || strings.Contains(hardware, "BCM2835"):
 		return HostRPi, rev, nil
-	case strings.Contains(model, "ARMv7 Processor rev 10 (v7l)") && (strings.Contains(hardware, "Freescale i.MX6 Quad/DualLite (Device Tree)") :
+	case strings.Contains(model, "ARMv7 Processor rev 10 (v7l)") && (strings.Contains(hardware, "Freescale i.MX6 Quad/DualLite (Device Tree)")) :
 		return HostHFGAIMX6, rev, nil
 	case hardware == "Allwinner sun4i/sun5i Families":
 		if major < 4 || (major == 4 && minor < 4) {
