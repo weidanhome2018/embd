@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/kidoman/embd"
-	"github.com/kidoman/embd/util"
+	"github.com/weidanhome2018/embd"
+	"github.com/weidanhome2018/embd/util"
 )
 
 const (

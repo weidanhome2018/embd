@@ -8,10 +8,10 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/kidoman/embd"
-	"github.com/kidoman/embd/motion/servo"
+	"github.com/weidanhome2018/embd"
+	"github.com/weidanhome2018/embd/motion/servo"
 
-	_ "github.com/kidoman/embd/host/all"
+	_ "github.com/weidanhome2018/embd/host/all"
 )
 
 func main() {

@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kidoman/embd"
+	"github.com/weidanhome2018/embd"
 )
 
 type digitalPin struct {

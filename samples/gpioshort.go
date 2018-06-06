@@ -5,9 +5,9 @@ package main
 import (
 	"flag"
 
-	"github.com/kidoman/embd"
+	"github.com/weidanhome2018/embd"
 
-	_ "github.com/kidoman/embd/host/all"
+	_ "github.com/weidanhome2018/embd/host/all"
 )
 
 func main() {
