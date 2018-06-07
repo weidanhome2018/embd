@@ -15,7 +15,7 @@ import (
 
 var spiDeviceMinor = 0
 
-var Pins = embd.PinMap{
+var pins = embd.PinMap{
 	&embd.PinDesc{ID: "GPIO_93", Aliases: []string{"93", "GPIO_93", "PowerButton"}, Caps: embd.CapDigital, DigitalLogical: 93},
 	&embd.PinDesc{ID: "GPIO_110", Aliases: []string{"110", "GPIO_110", "key_dis"}, Caps: embd.CapDigital , DigitalLogical: 110},
 	&embd.PinDesc{ID: "GPIO_148", Aliases: []string{"148", "GPIO_148", "key_wake"}, Caps: embd.CapDigital, DigitalLogical: 148},
