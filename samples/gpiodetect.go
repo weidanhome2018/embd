@@ -26,6 +26,8 @@ func main() {
 		pinNo = "P9_31"
 	case embd.HostRPi:
 		pinNo = 10
+	case embd.HostHFGAIMX6:
+		pinNo = 2
 	default:
 		panic("host not supported (yet :P)")
 	}
